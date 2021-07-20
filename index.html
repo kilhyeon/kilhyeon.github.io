@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>kilhyeon portfolio</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -48,9 +48,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1 style="margin-bottom: 30px;">김길현 KILHYEON</h1>
+            <!-- <h2>Software Engineer</h2> -->
+            <a href="pdf/resume.pdf" class="btn-rounded-white" target='_blank'>View Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -65,7 +65,7 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+    <div id="about" class="background-alt">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -73,9 +73,13 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+						중학생 시절 용돈을 모아 구매했던 그래픽카드가 AGP 방식이었고, 당시 저희 집 컴퓨터 메인보드에는 AGP 슬롯이 없다는 걸 깨닫게 된 이후부터 컴퓨터에 대해 많은 관심을 가졌습니다.
+						물론 하드웨어와 개발은 다른 분야이긴 하지만 하드웨어에 대한 관심 덕분에 컴퓨터를 더욱 익숙하게 다룰 수 있어 개발에도 도움이 될 것입니다.
+						
+                    </p>
+                    <p>
+						새로운 도전을 위해 개발자 과정 국비 지원 교육을 신청하여 수강되었고, 이 과정이 적성에도 잘 맞아 개발자로서 새롭게 취업을 하고자 합니다.
+						또한, 다양한 아르바이트와 회사 생활을 통해 원활한 의사소통의 중요성, 주어진 업무에 대한 책임감 이 두 가지를 배웠습니다. 이는 개발자로서도 큰 장점이 되리라 생각합니다.
                     </p>
                 </div>
             </div>
@@ -83,7 +87,7 @@
     </div>
     <!-- End #about -->
 
-    <div id="experience" class="background-alt">
+    <!-- <div id="experience" class="background-alt">        
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="September 2015 – September 2016">
@@ -110,22 +114,24 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End #experience -->
 
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>(디지털컨버전스)JAVA기반 웹 융합 응용SW 개발</h3>
+            <span class="education-date">2021.01 - 2021.07</span>
+            <h4>영남인재교육원</h4>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                JAVA기반 웹 융합 응용SW 개발과정을 수료하였고, 이 과정을 통해 Java, Spring, MySql, MyBatis, JavaScript, JQuery, HTML5/CSS3 등 웹 개발에 필요한 기술을 익혔습니다.&nbsp;
+				그리고 eXERD를 통한 좀 더 수월한 DB설계를 배웠습니다.&nbsp;
+				또한, 팀프로젝트를 통해 의사소통의 중요성, 끊임없는 자기개발의 필요성을 배웠습니다.&nbsp;
             </p>
         </div>
         <!-- End .education-block -->
 
-        <div class="education-block">
+        <!-- <div class="education-block">
             <h3>University of Ottawa</h3>
             <span class="education-date">Sept 2016 - Sept 2017</span>
             <h4>Bachelor of Science in Computer Science</h4>
@@ -140,7 +146,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </li>
             </ul>
-        </div>
+        </div> -->
         <!-- End .education-block -->
     </div>
     <!-- End #education -->
@@ -151,31 +157,39 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/library_management.png" width="300" height="300"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>도서관리 프로그램</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            JAVA기반 웹 융합 응용SW 개발 과정 중 중간 개인프로젝트입니다.&nbsp;
+                            Java Swing(WindowBuilder)을 활용하여 도서관리 프로그램 개발하였습니다.&nbsp;
+                            Swing이 현업에서 잘 쓰이지는 않지만 프로젝트를 진행하며 MVC패턴을 이해하는데 큰 도움이 되었습니다.&nbsp;
+							그리고 eXERD를 활용해 구상한 DB를 좀 더 수월하게 작성할 수 있었습니다.
                         </p>
-                        <a href="#">View Project</a>
+                        <a style="margin-right: 5px;" href="https://github.com/kilhyeon/book_rent_proj" target='_blank'>GITHUB</a>
+                        <a href="pdf/library_management_proj.pdf" target='_blank'>PDF</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
-
+                <!-- End .project -->                
+                
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/shoes_shopping.PNG" width="300" height="300"/>
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>슈즈 쇼핑몰</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            JAVA기반 웹 융합 응용SW 개발 과정 중 최종 팀프로젝트입니다.&nbsp;
+							기본적으로 Spring, MySQL, MyBatis 등을 활용하여 Back-End, 그리고 JavaScript, JQuery 등을 활용하여 Front-End를 구현하였습니다.&nbsp;
+							저는 관리자 페이지를 담당하였고, Chart.js를 활용한 차트와 주문관리, 회원관리, 상품관리, 게시판관리, 메인배너관리 기능을 구현하였습니다.&nbsp;
+							심플하지만 기본적인 기능에 충실하고자 했습니다.
                         </p>
-                        <a href="#">View Project</a>
+                        <a style="margin-right: 5px;" href="https://github.com/kilhyeon/proj21_shoes" target='_blank'>GITHUB</a>
+                        <a href="pdf/shoes_shopping_proj.pdf" target='_blank'>PDF</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -188,32 +202,14 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Spring</li>
+            <li>MyBatis</li>
+            <li>MySQL</li>
+            <li>HTML5/CSS3</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>jQuery</li>
+            <li>GitHub</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -221,7 +217,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/f/xayadaye">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +233,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2021 KILHYEON
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,9 +244,9 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/kilhyeon" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                         <li>
@@ -261,10 +257,7 @@
                         </li>
                         <li>
                             <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
